@@ -4,32 +4,38 @@
 }
 
 
-html,
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: hidden;
   background: var(--background-color);
 }
 
 h1 {
   margin: 0;
 
-  position: absolute;
+  position: relative;
   top: 2vh;
   left: 1vw;
 
   z-index: 200;
 
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, cursive;
   color: var(--color);
-  font-size: 7vw;
-  line-height: 6vw;
+  font-size: 10vw;
+  line-height: 9vw;
 }
 #logo {
-  width: 75vw;
+  width: 15vw;
+  position: fixed;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25vh;
+  right: 5vw;
+  bottom: 5vh;
+}
+
+a {
+  position: fixed;
+  right: 5vw;
+  top: 10vh;
 }
